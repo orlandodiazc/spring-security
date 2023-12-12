@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS token (
+        id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+        identifier VARCHAR(45) NULL,
+        token TEXT NULL);
